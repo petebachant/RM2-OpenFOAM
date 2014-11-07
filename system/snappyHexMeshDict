@@ -122,11 +122,11 @@ castellatedMeshControls
             levels ((0.0 6));
         }
         {
-            file        "shaft.eMesh";
+            file        "shaft_and_hubs.eMesh";
             levels ((0.0 4));
         }
         {
-            file        "struts_and_hub.eMesh";
+            file        "struts.eMesh";
             levels ((0.0 4));
         }
         {
