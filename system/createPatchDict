@@ -33,7 +33,7 @@ patches
             transform       noOrdering;
         }
         constructFrom patches;
-        patches (AMIsurface);
+        patches (AMISurface);
     }
 
     {
@@ -47,7 +47,7 @@ patches
             transform       noOrdering;
         }
         constructFrom patches;
-        patches (AMIsurface_slave);
+        patches (AMISurface_slave);
     }
 
     {
