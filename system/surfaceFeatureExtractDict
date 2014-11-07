@@ -19,17 +19,17 @@ blades.stl
     #include "surfaceFeatureExtractDictDefaults"
 }
 
-shaft.stl
+shaft_and_hubs.stl
 {
     #include "surfaceFeatureExtractDictDefaults"
 }
 
-struts_and_hub.stl
+struts.stl
 {
     #include "surfaceFeatureExtractDictDefaults"
 }
 
-AMIsurface.stl
+AMISurface.stl
 {
     #include "surfaceFeatureExtractDictDefaults"
 }
