@@ -8,8 +8,8 @@ cd ${0%/*} || exit 1    # run from this directory
 mkdir 0
 
 # - meshing
-blockMesh
-surfaceFeatureExtract
+runApplication blockMesh
+runApplication surfaceFeatureExtract
 
 runApplication snappyHexMesh -overwrite
 
@@ -31,6 +31,6 @@ cp -r 0.org 0 > /dev/null 2>&1
 cp -rf 0.org 0
 
 runApplication checkMesh
-runApplication yPlusRAS
+runApplication yPlus
 
 notify-send "OpenFOAM" "Meshing finished."

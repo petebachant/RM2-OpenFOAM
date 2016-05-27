@@ -1,7 +1,7 @@
 /*--------------------------------*- C++ -*----------------------------------*\
 | =========                 |                                                 |
 | \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
-|  \\    /   O peration     | Version:  2.3.x                                 |
+|  \\    /   O peration     | Version:  3.0.x                                 |
 |   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
 |    \\/     M anipulation  |                                                 |
 \*---------------------------------------------------------------------------*/
@@ -48,14 +48,6 @@ runTimeModifiable true;
 adjustTimeStep  no;
 
 maxCo           30.0;
-
-libs
-(
-    "libOpenFOAM.so"
-    "libforces.so"
-    "libincompressibleTurbulenceModel.so"
-    "libincompressibleRASModels.so"
-);
 
 functions
 {
